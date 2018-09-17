@@ -1,6 +1,6 @@
 genesis::aws::vpc { 'nyx-vpc-test':
   ensure               => present,
-  region               => "eu-west-1",
+  region               => "us-west-1",
   cidr_block           => "10.90.0.10/24",
   tags => {
       'created_by' => 'john.mccabe@puppet.com',
